@@ -29,7 +29,7 @@ function Message({ message }) {
       </div>
 
       {/* Time stamp */}
-      <TimeAgo datetime={message.createdAt} />
+      {/* <TimeAgo datetime={message.createdAt} /> */}
 
       <p
         className={`absolute -bottom-5 text-xs ${
